@@ -2,6 +2,10 @@
 
 **In Greek, "Nomikos" is derived from "nomos," meaning "law," and refers to someone learned in the law or an interpreter and teacher of the law.**
 
+
+**Note on Deployment/Performance: Our prototype is deployed on the Render free tier. This environment features a container spin-down policy which may result in a 15-30 second cold start delay on the very first access. Please allow the server to fully spin up; all core GenAI functionalities operate as designed once the service is active.**
+
+
 Nomiko is a web application designed to demystify legal documents. It leverages the power of Generative AI to analyze contracts, rental agreements, and other legal texts, translating complex jargon into plain English. With Nomiko, users can upload their documents to flag potential risks, receive negotiation guidance, and get direct answers to their questions about the contract's contents.
 
 ## Features
